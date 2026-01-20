@@ -1,0 +1,13 @@
+@supports (display: grid) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+}
+
+.box {
+  border: 1px solid black;
+  padding: 15px;
+  background-color: #dcedc8;
+}
